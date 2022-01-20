@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.seip.android.todoappb1.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/createTotoFragment"
+        android:name="com.seip.android.todoappb1.ui.CreateTotoFragment"
+        android:label="fragment_create_toto"
+        tools:layout="@layout/fragment_create_toto" />
+    <fragment
+        android:id="@+id/doneToDoListFragment"
+        android:name="com.seip.android.todoappb1.ui.DoneToDoListFragment"
+        android:label="fragment_done_to_do_list"
+        tools:layout="@layout/fragment_done_to_do_list" />
+</navigation>

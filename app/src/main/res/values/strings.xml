@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TodoAppB1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_todos">All Todos</string>
+    <string name="done_todos">Done Todos</string>
+    <string name="create_todo">create todo</string>
+</resources>
